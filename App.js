@@ -7,7 +7,9 @@ import {
   withAuthenticator,
 } from '@aws-amplify/ui-react-native';
 import awsconfig from './src/aws-exports';
-//import Home from './src/Home';
+//import { DataStore } from '@aws-amplify/datastore';
+//import { Condition } from './models';
+import Home from './src/Home';
 
 Amplify.configure(awsconfig);
 
@@ -20,6 +22,7 @@ function App() {
   return (
     <View style={styles.container}>
       <StatusBar />
+      <Home />
       <SignOutButton />
     </View>
   );

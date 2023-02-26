@@ -4,8 +4,9 @@ import { schema } from './schema';
 
 
 
-const { Condition } = initSchema(schema);
+const { Stake, Condition } = initSchema(schema);
 
 export {
+  Stake,
   Condition
 };
