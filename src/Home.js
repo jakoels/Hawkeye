@@ -12,6 +12,8 @@ import {
 import { DataStore } from '@aws-amplify/datastore';
 import { Stake } from './models';
 
+// check out die url - baie nice wat api's en flatlist explain
+
 const Header = () => (
   <View style={styles.headerContainer}>
     <Text style={styles.headerTitle}>My Defined Stakes</Text>
